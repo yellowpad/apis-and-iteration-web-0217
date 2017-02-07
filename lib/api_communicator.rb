@@ -52,7 +52,7 @@ end
   #  of movies by title. play around with puts out other info about a given film.
 
 def parse_character_movies(films_hash)
-    i = 0
+    i = 1
     empty = []
     films_hash.each do |film|
       film.each do |k,v|
